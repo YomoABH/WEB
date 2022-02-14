@@ -1,0 +1,128 @@
+.header {
+	padding: 50px 0px 0px 0px;
+	
+	&__inner {
+		min-height: 100px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__logo {
+		width: 15.625%;
+		margin-right: 8.124%;
+		img {
+			max-width: 100%;
+	
+		}
+	}
+
+	&__setting {
+		display: flex;
+		align-items: center;
+		margin-right: 3.75%;
+	}
+
+	&__setting-lang {
+		padding: 10px 0px 10px 0px;
+		font-size: 16px;
+		line-height: 25px;
+		font-weight: 600;
+		margin-right: 24px;
+	}
+
+	&__setting-theme {
+		width: 64px;
+		height: 24px;		
+		border: 1px solid #131313;
+		box-sizing: border-box;
+		border-radius: 100px;
+		position: relative;
+		img {
+			position: absolute;
+			top: 50%;
+			right: 1px;
+			transform: translateY(-50%);
+			z-index: 1000;
+			
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			right: -5px;
+			transform: translateY(-50%);
+			z-index: 5;
+			padding: 3px;
+			height: 24px;
+			width: 24px;
+			border-radius: 100%;
+			background-color: #fff;
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+			
+		}
+		&_darck {
+			background: #1B1B1B;
+			&::after {
+				top: 50%;
+				left: -5px;
+				transform: translateY(-50%);
+				background: #2B2B2D;
+				
+			}
+			img {
+				top: 50%;
+				left: 1px;
+				transform: translateY(-50%);
+				
+			}
+	
+		}
+	}
+
+	&__menu {
+	}
+
+	&__phone {
+		font-weight: 600;
+		font-size: 16px;
+		margin-right: 3.562%;
+	}
+
+	&__button {
+		font-weight: 500;
+		padding-right: 40px;
+		font-size: 16px;
+		position: relative;
+		img {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+		}
+	}
+}
+.menu {
+	margin-right: 3.562%;
+	&__icon {
+	}
+
+	&__body {
+		
+	}
+
+	&__list {
+		display: flex;
+	}
+
+	&__link {
+		font-size: 16px;
+		font-weight: 600;
+		margin-right: 52px;
+		&_end {
+			margin-right: 0;
+		}
+	}
+}
+.icon-menu {
+}
