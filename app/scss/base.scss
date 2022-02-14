@@ -8,32 +8,13 @@ body {
 
 
 body {
+	height: 100%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	color: $main-text-color;
 	background-color: $main-bg-color;
 }
-
-body.darck {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	color: $main-text-color-black;
-	background-color: $main-bg-color-black;
-	a {
-		color: $main-text-color-black;
-	}
-	.darck-none {
-		display: none;
-	}
-	.darck-visible {
-		display: block;
-	}	
-}
-.darck-visible {
-	display: none;
-}	
 
 .wrapper {
 	display: flex;

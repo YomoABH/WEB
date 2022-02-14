@@ -15,21 +15,45 @@
 </head>
 
 <body>
+	<svg display="none">
+		<symbol id="ctrl" viewBox="0 0 512 512">
+			<g id="icomoon-ignore">
+			</g>
+			<path
+				d="M368.007 224c-4.454 0-8.885-1.849-12.048-5.464l-99.959-114.239-99.959 114.239c-5.818 6.65-15.928 7.325-22.577 1.505-6.65-5.819-7.324-15.927-1.505-22.577l112-128c3.038-3.472 7.427-5.464 12.041-5.464s9.003 1.992 12.041 5.464l112 128c5.819 6.65 5.146 16.758-1.505 22.577-3.035 2.656-6.791 3.959-10.529 3.959z">
+			</path>
+		</symbol>
+		<symbol>
+			<g>
+
+			</g>
+		</symbol>
+
+	</svg>
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__logo">
-						<img class="darck-none" src="img/logo/main-logo.png" alt="">
-						<img class="darck-visible" src="img/logo/logo-darck.png" alt="">
+						<a href="#"><img class="darck-none" src="img/logo/main-logo.png" alt=""></a>
+						<a href="#"><img class="darck-visible" src="img/logo/logo-darck.png" alt=""></a>
 					</div>
 					<div class="header__setting">
-						<select class="header__setting-lang">
-							<option>EN</option>
-							<option>RU</option>
-							<option>UA</option>
-							<option>KZ</option>
-						</select>
+						<div class="header__setting-inner">
+							<div class="header__setting-lang">
+								EN
+							</div>
+							<svg class="header__setting-lang-img svg-darck">
+								<use xlink:href="#ctrl"></use>
+							</svg>
+
+							<ul class="header__setting-lang-list">
+								<li class="header__setting-lang-el">EN</li>
+								<li class="header__setting-lang-el">RU</li>
+								<li class="header__setting-lang-el">UA</li>
+							</ul>
+
+						</div>
 						<div class="header__setting-theme">
 							<img class="darck-none" src="img/icon/sun.png" alt="">
 							<img class="darck-visible" src="img/icon/moon.png" alt="">
@@ -43,7 +67,7 @@
 						</div>
 						<nav class="menu__body">
 							<ul class="menu__list">
-								<li><a href="#" class="menu__link">Home</a></li>
+								<li><a href="#" class="menu__link menu__link_active">Home</a></li>
 								<li><a href="#" class="menu__link">About</a></li>
 								<li><a href="#" class="menu__link">Works</a></li>
 								<li><a href="#" class="menu__link">Prices</a></li>
@@ -53,9 +77,8 @@
 						</nav>
 					</div>
 					<a href="tel:+16475639114" class="header__phone">+1 (647)-563-9114</a>
-					<a class="header__button">Start a project
+					<a href="#" class="header__button">Start a project
 						<img src="img/icon/arrow-in-menu.png" alt="">
-
 					</a>
 
 				</div>
