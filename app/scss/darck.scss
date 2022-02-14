@@ -16,6 +16,14 @@ body.darck {
 	.svg-darck {
 		fill: #ffffff;
 	}
+	.menu__icon {
+		&:before,
+		&:after,
+		& span {
+			background-color: #ffffff;
+		}
+	}
+	
 }
 .darck-visible {
 	display: none;
