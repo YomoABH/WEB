@@ -1,0 +1,73 @@
+html,
+body {
+	height: 100%;
+}
+
+// font-family: 'Darker Grotesque', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: $main-text-color;
+	background-color: $main-bg-color;
+}
+
+body.darck {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: $main-text-color-black;
+	background-color: $main-bg-color-black;
+	a {
+		color: $main-text-color-black;
+	}
+	.darck-none {
+		display: none;
+	}
+	.darck-visible {
+		display: block;
+	}	
+}
+.darck-visible {
+	display: none;
+}	
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.header {
+}
+.main {
+	flex: 1 1 auto;
+}
+.footer {
+}
+
+// КОНТЕЙНЕР
+
+.container {
+	max-width: 1630px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+// точечное обнуление стилей
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+select {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	color: $main-text-color;
+}
