@@ -218,6 +218,28 @@ body._lock {
 
 }
 
-@media (max-width: 1400px) {
-	
+@media (max-width: 575px) {
+	.header {
+		padding: 0px 0px 0px 0px;
+		&__logo {
+			width: 156px;
+		}
+		.menu {
+			&__icon {
+				left: 18px;
+				top: 39px;
+			}
+			&__body {
+				padding: 77px 15px 20px 18px;
+			}
+			
+		}
+		&__setting {
+			&_sm {
+				bottom: 90px;
+				left: 18px;
+			}
+		}
+
+	}
 }
