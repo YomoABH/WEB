@@ -16,14 +16,19 @@ body.darck {
 	.svg-darck {
 		fill: #ffffff;
 	}
-	.menu__icon {
-		&:before,
-		&:after,
-		& span {
-			background-color: #ffffff;
-		}
-	}
 	
+	.menu {
+		&__icon {
+			&:before,
+			&:after,
+			& span {
+				background-color: #ffffff;
+			}
+		}
+		&__body {
+			background-color: #000;
+		}		
+	}
 }
 .darck-visible {
 	display: none;

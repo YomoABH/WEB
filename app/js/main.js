@@ -41,10 +41,23 @@ const langEl2 = [...document.querySelectorAll('.header__setting-lang-el_2')].for
 // КНОПКА МЕНЮ БУРГЕРА
 const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu__body');
+const menuList = document.querySelector('.menu__list');;
 if (iconMenu) {
+	// ОТКРЫТИЕ МЕНЮ-БУРГЕРА И АНИМАЦИЯ ЕГО ИКОНКИ
 	iconMenu.addEventListener('click', function (e) {
 		document.body.classList.toggle('_lock');
 		menuBody.classList.toggle('_active');
 		iconMenu.classList.toggle('_active');
 	});
+	// ЗАКТРЫТИЕ МЕНЮ ПРИ КЛИКЕ НА ЕГО ПОКРОВ ИЛИ ССЫЛКУ
+	menuList.addEventListener('click', function (e) {
+		if (iconMenu.classList.contains('_active')) {
+			menuBody.classList.remove('_active');
+			iconMenu.classList.remove('_active');
+		}
+	})
+
 }
+
+
+
