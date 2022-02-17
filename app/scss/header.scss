@@ -59,6 +59,7 @@
 		padding: 3px;
 		display: none;
 		cursor: pointer;
+		z-index: 10;
 		li {
 			transition: all 0.5s;
 			&:hover {

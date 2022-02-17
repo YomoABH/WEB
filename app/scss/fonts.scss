@@ -1,0 +1,8 @@
+@font-face { 
+	font-family: 'porta'; 
+	src: url('../fonts/Potra.woff2') format('woff2'), 
+		//   url('webfont.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+			url('../fonts/Potra.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}

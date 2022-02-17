@@ -11,7 +11,7 @@ body.darck {
 		display: none;
 	}
 	.darck-visible {
-		display: block;
+		display: inline;
 	}	
 	.svg-darck {
 		fill: #ffffff;
@@ -28,6 +28,14 @@ body.darck {
 		&__body {
 			background-color: #000;
 		}		
+	}
+	.promo {
+		&__btn {
+			box-shadow: -15px -15px 20px rgba(0, 0, 0, 0.8);
+		}
+	}
+	#mainVector {
+		stroke:#ffffff;
 	}
 }
 .darck-visible {
