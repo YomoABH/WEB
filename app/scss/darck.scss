@@ -32,6 +32,10 @@ body.darck {
 	.promo {
 		&__btn {
 			box-shadow: -15px -15px 20px rgba(0, 0, 0, 0.8);
+					&:hover {
+			box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.8);
+		}
+
 		}
 	}
 	#mainVector {

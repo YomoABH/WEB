@@ -1,0 +1,20 @@
+.midle-nav {
+position: fixed;
+z-index: 1000;
+top: 50%;
+right: 10%;
+transform: translateY(-50%);
+		&__link {
+			width: 8.5px;
+			height: 8.5px;
+			margin-bottom: 30px;
+			border-radius: 100%;
+			background: #131313;
+			cursor: pointer;
+			&_active {
+				width: 14px;
+				height: 14px;
+				background: #FB1B3D;
+			}
+		}
+}

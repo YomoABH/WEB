@@ -40,8 +40,8 @@
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__logo">
-						<a href="#"><img class="darck-none" src="img/logo/main-logo.png" alt=""></a>
-						<a href="#"><img class="darck-visible" src="img/logo/logo-darck.png" alt=""></a>
+						<a href="#"><img class="header__logo-img" src="img/logo/main-logo.png" alt=""></a>
+						<!-- <a href="#"><img class="darck-visible" src="img/logo/logo-darck.png" alt=""></a> -->
 					</div>
 					<div class="header__setting">
 						<div class="header__setting-inner">
@@ -113,20 +113,21 @@
 			</div>
 		</header>
 		<main class="main">
-			<div class="container">
-				<section class="promo">
+			<section class="promo">
+				<div class=" promo__container container">
 					<div class="promo__inner-img">
-						<object class="promo__img darck-none" data="img/bg/vectorSite.svg" type="image/svg+xml"></object>
-						<object class="promo__img darck-visible" data="img/bg/vectorSiteDarck.svg"
+						<object class="promo__img mob-hidden" data="img/bg/vectorSite.svg" type="image/svg+xml"></object>
+						<object class="promo__img promo__img_mob mob-visible" data="img/bg/vectorSiteMob.svg"
 							type="image/svg+xml"></object>
 					</div>
 					<div class="promo__content">
 						<span>We rethink</span> <br>
 						the web
-						<a href="#" class="promo__btn"></a>
+						<a href="#" class="promo__btn"><span>Consultation</span></a>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
+
 		</main>
 		<footer class="footer"></footer>
 	</div>
